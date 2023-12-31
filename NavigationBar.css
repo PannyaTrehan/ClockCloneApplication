@@ -1,0 +1,42 @@
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1; /* Distribute equal height among flex items */
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-text {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4px;
+}
+
+.nav-link.active {
+  /* Add any styling for active links */
+}
+
+/* Apply common styles for all icons */
+.nav-icon {
+  width: 24px;
+  height: 24px;
+}
