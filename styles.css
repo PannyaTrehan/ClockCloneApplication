@@ -1,0 +1,9 @@
+/* styles.css */
+body {
+    background-color: black;
+    color: white;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    min-height: 100vh;
+  }
+  

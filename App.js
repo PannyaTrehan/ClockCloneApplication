@@ -7,13 +7,14 @@ import Alarm from "./pages/Alarm";
 import WorldClock from "./pages/WorldClock";
 import NoPage from "./pages/NoPage";
 import NavigationBar from "./NavigationBar";
+import "./styles.css"; // Import the CSS file
 
 export default function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route index element={<Alarm />} />
+          <Route path="/" element={<Alarm />} />
           <Route path="/Timer" element={<Timer />} />
           <Route path="/Stopwatch" element={<Stopwatch />} />
           <Route path="/WorldClock" element={<WorldClock />} />

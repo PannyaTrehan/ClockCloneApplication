@@ -1,4 +1,4 @@
-// NavigationBar.jsx
+// NavigationBar.js
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaClock, FaStopwatch } from "react-icons/fa";
@@ -9,28 +9,28 @@ import "./NavigationBar.css"; // Import the CSS file for styling
 const NavigationBar = () => {
   return (
     <nav className="footer-nav">
-      <NavLink to="/" exact className="nav-link" activeClassName="active">
+      <NavLink to="/" className="nav-link" activeclassname="active">
         <div className="nav-item">
           <IoIosAlarm className="nav-icon" />
           <span className="nav-text">Alarm</span>
         </div>
       </NavLink>
 
-      <NavLink to="/WorldClock" className="nav-link" activeClassName="active">
+      <NavLink to="/WorldClock" className="nav-link" activeclassname="active">
         <div className="nav-item">
           <FaClock className="nav-icon" />
           <span className="nav-text">World Clock</span>
         </div>
       </NavLink>
 
-      <NavLink to="/Stopwatch" className="nav-link" activeClassName="active">
+      <NavLink to="/Stopwatch" className="nav-link" activeclassname="active">
         <div className="nav-item">
           <FaStopwatch className="nav-icon" />
           <span className="nav-text">Stopwatch</span>
         </div>
       </NavLink>
 
-      <NavLink to="/Timer" className="nav-link" activeClassName="active">
+      <NavLink to="/Timer" className="nav-link" activeclassname="active">
         <div className="nav-item">
           <PiHourglassSimpleBold className="nav-icon" />
           <span className="nav-text">Timer</span>
